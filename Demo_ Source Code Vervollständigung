@@ -1,0 +1,44 @@
+public class DemoAutocomplete {
+ 
+    public static void main(String[] args) {
+        String text = "Hallo Welt";
+ 
+        // Demo-Stelle 1:
+        // Setze während der Präsentation den Cursor hinter 'text.' und drücke Strg+Leertaste,
+        // um die Methoden von String zu sehen.
+        System.out.println("Original: " + text);
+        System.out.println("Großbuchstaben: " + text.toUpperCase());
+        System.out.println("Länge: " + text.length());
+ 
+        Person person = new Person("Max", 25);
+ 
+        // Demo-Stelle 2:
+        // Setze den Cursor hinter 'person.' und drücke Strg+Leertaste,
+        // um die Methoden von Person zu sehen.
+        person.printInfo();
+        System.out.println("Name: " + person.getName());
+        System.out.println("Alter: " + person.getAlter());
+    }
+}
+ 
+class Person {
+    private String name;
+    private int alter;
+ 
+    public Person(String name, int alter) {
+        this.name = name;
+        this.alter = alter;
+    }
+ 
+    public String getName() {
+        return name;
+    }
+ 
+    public int getAlter() {
+        return alter;
+    }
+ 
+    public void printInfo() {
+        System.out.println(name + " ist " + alter + " Jahre alt.");
+    }
+}
