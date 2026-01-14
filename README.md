@@ -12,7 +12,7 @@ Anbei wäre hier der Link dazu [HFTM-IN250](https://moodle.hftm.ch/course/view.p
             z
            z
              z
-              ______________
+                   ______________
         /\---/\  _/              \   
        ( - . - )          __(     \  
        (_________________(_________ \
